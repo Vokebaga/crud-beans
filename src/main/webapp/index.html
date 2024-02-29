@@ -6,16 +6,13 @@
 </head>
 <body>
     <h1>Hello World!</h1>
-    <button onclick="redirectToReadPage()">Read Notes</button>
-    <button onclick="redirectToAddPage()">Add Note</button>
-
+    <!-- Кнопка для перехода на страницу входа -->
+    <button onclick="redirectToLoginPage()">Login</button>
+    
+    <!-- JavaScript для перенаправления на страницу входа -->
     <script>
-        function redirectToReadPage() {
-            window.location.href = "/note";
-        }
-
-        function redirectToAddPage() {
-            window.location.href = "/note/add";
+        function redirectToLoginPage() {
+            window.location.href = "/loginPage";
         }
     </script>
 </body>
